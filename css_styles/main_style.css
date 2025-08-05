@@ -1,0 +1,83 @@
+/* Set up */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Repeated declerations*/
+
+.header, .content {
+    background-color: rgb(42, 46, 63);
+    display: flex;
+    align-items: center;
+}
+
+a, .sub {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+/* Header */
+
+.header{
+    padding-right: 150px;
+}
+
+    /* Header ul */
+.head_links {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#logo {
+    width: 100px;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Content */
+
+.content {
+    padding: 60px 150px 100px 150px;
+    justify-content: space-evenly;
+}
+
+#sword_c {
+    margin-top: -150px;
+}
+
+#sword {
+    width: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin: 10px 0px;
+}
+
+.sub {
+    max-width: 520px;
+}
+
+#dxc {
+    width: 350px;
+    flex: 1 0 auto;
+    max-width: 500px;
+}
+
+.support {
+    color: white;
+    background-color: rgb(43, 142, 255);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 8px;
+}
