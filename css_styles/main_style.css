@@ -81,3 +81,31 @@ h1 {
     border: 0px;
     border-radius: 8px;
 }
+
+/* second content section */
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0px 20px 0px;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image {
+    flex-grow: 1;
+    max-width: 350px;
+
+}
+
+.image p {
+    text-align: center;
+    padding: 0px 30px;
+}
