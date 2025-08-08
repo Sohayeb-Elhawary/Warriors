@@ -1,8 +1,11 @@
 /* Set up */
 
 body {
-  margin: 0;
-  padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    padding: 0;
 }
 
 /* Repeated declerations*/
@@ -13,7 +16,7 @@ body {
     align-items: center;
 }
 
-a, .sub {
+a, .sub, #rights_section p {
     color: rgba(255, 255, 255, 0.705);
 }
 
@@ -113,7 +116,7 @@ h2 {
 /* quote section (fourth section) */
 
 #quote_container {
-    height: 400px;
+    min-height: 400px;
     padding: 50px;
     background-color: #E5E7EB;
     align-content: center;
@@ -146,7 +149,8 @@ h2 {
 /* sign section (fifth section) */
 
 #sign_section {
-    height: 300px;
+    flex-grow: 1;
+    min-height: 300px;
     align-content: center;
 }
 
@@ -191,4 +195,14 @@ h2 {
     border-color: rgb(111, 190, 255);
     border-radius: 8px;
     border-style: solid;
+}
+
+#rights_section {
+    background-color:rgb(42, 46, 63);
+    height: 60px;
+    align-content: center;
+}
+
+#rights_section p {
+    text-align: center;
 }
